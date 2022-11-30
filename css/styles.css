@@ -1,0 +1,217 @@
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color:#212121;
+  --accent-color:#2196F3;
+  --project-color: #EEEEEE;
+  --white-color: #ffffff;
+  --button-background-color: #F5F4FA;
+  --background-color:#2F303A;
+  --link-address: rgba(255, 255, 255, 0.6)
+  
+} 
+body {
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+.hero
+ {
+    background-color: #212121;
+}
+.hero-title {
+    font-family: 'Roboto';
+         font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;  
+        text-align: center;
+        letter-spacing: 0.06em;
+       }
+.hero-button {
+    color: var(--white-color);
+    cursor: pointer;
+}
+.hero-button {
+    background-color: #2196F3;
+}
+/* logo */
+
+.logo {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+.logo-accent {
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    }
+
+.link,
+.link-header {
+text-decoration: none;
+}
+.link-header {
+color: var(--primary-text-color);
+}
+
+.button {
+    color: var(--white-color);
+    cursor: pointer;
+    
+}
+.button-filter {
+    color: var(--title-text-color);
+    background-color: var(--button-background-color);
+    cursor: pointer;
+
+}
+.button-filter:hover, 
+.button-filter:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+
+p {
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+}
+
+ul { 
+    list-style: none;
+}
+
+
+/* колір допоміжного тексту #212121 */
+/* колір основного тексту #757575 */
+/* білий #F5F5F5 */
+/* колір проектів  #EEEEEE */
+/* акцент #2196F3 */
+/* додатковий колір фона  #2F303A  */
+
+
+/* Hero */
+
+.hero-title {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+
+/* site */
+.site-nav .link {
+    color: var(--title-text-color);  
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.link-header:hover,
+.link-header:focus {
+color: var(--accent-color);
+}
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em
+}
+.section-advantege {
+    font-family: 'Roboto';
+         font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+}
+
+.section-box {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+     font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.section-subtitle {
+     color: var(--title-text-color);
+    font-family: 'Roboto';
+           font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+ .professions {
+    font-family: 'Roboto';
+           font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+ }
+.team {
+    background-color: var(--button-background-color);
+}
+
+footer {
+    background-color: #212121;
+}
+.logo-contacts {
+    color: var(--white-color);
+}
+
+.logo-contacts,
+.link-address
+{
+    text-decoration: none;
+}
+ .address {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+}
+.link-address {
+    color: var(--link-address);
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+}
+.logo-contacts {
+font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
