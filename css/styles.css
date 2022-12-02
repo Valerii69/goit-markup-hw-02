@@ -13,6 +13,7 @@
 body {
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    background-color:var(--white-color);
 }
 .hero
  {
@@ -29,10 +30,17 @@ body {
 .hero-button {
     color: var(--white-color);
     cursor: pointer;
+
 }
 .hero-button {
     background-color: #2196F3;
 }
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--white-color);
+    background-color: #188CE8;;
+}
+
 /* logo */
 
 .logo {
@@ -130,17 +138,19 @@ color: var(--accent-color);
 }
 
 /* Section */
-
 .section-title {
-    color: var(--title-text-color);
-    font-family: 'Roboto';
-
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
-        letter-spacing: 0.03em
-}
+    .visually-hidden {
+        position: absolute;
+          white-space: nowrap;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          border: 0;
+          padding: 0;
+          clip: rect(0 0 0 0);
+          clip-path: inset(50%);
+          margin: -1px;
+      }
 .section-advantege {
     font-family: 'Roboto';
          font-weight: 400;
