@@ -75,7 +75,6 @@ text-decoration: none;
 
 .link-header {
 text-decoration: none;
-/* font-style: normal; */
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -95,18 +94,21 @@ color: var(--primary-text-color);
     color: var(--title-text-color);
     background-color: var(--button-background-color);
     cursor: pointer;
-
-}
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+        }
+        
 .button-filter:hover, 
 .button-filter:focus {
-    color: var(--white-color);
+    color: var(--title-text-colorr);
     background-color: var(--accent-color);
 }
 
-
-p {
-    color: var(--primary-text-color);
-    font-family: 'Roboto';
+.project-watch{
+        color: var(--primary-text-color);
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -169,13 +171,17 @@ color: var(--accent-color);
 .type-title {
     background-color: var(--white-color);
 }
+.project-box {
+    list-style: none;
+    text-decoration: none;
+}
 
 .section-box {
+    list-style: none;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
-        text-transform: uppercase;
         color: var(--title-text-color);
 }
 
@@ -243,18 +249,11 @@ color: var(--accent-color);
  .address {
     color: #FFFFFF;
     font-family: 'Roboto';
-
         font-style: normal;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
 }
-
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-
 
 .link-address {
     color: var(--link-address);
@@ -315,3 +314,21 @@ letter-spacing: 0.03em;
     color: var(--primary-text-color);
     }
     
+    .button-filter {
+        color: var(--white-color);
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+         display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        background-color: #2196F3
+   
+    }
+    .button-filter:hover,
+    .button-filter:focus {
+        color: var(--accent-color);
+        background-color: var(--button-background-color);
+    }
