@@ -110,7 +110,6 @@ color: var(--primary-text-color);
     background-color: var(--button-background-color);
     cursor: pointer;
     font-weight: 500;
-    font-style: normal;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -140,6 +139,10 @@ ul {
 .site-nav .link {
     color: var(--title-text-color);  
 }
+.site-nav .current {
+    color: var(--accent-color);
+}
+
 
 .site-nav .link:hover,
 .site-nav .link:focus,
