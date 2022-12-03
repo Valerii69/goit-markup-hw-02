@@ -18,16 +18,16 @@ body {
 .hero,
 .contacts-section
  {
-    background-color: #212121;
+    background-color: var(--background-color);
 }
 
 .hero-title {
-        color: #FFFFFF;
-            font-weight: 900;
-            font-size: 44px;
-            line-height: 1.36;
-            text-align: center;
-            letter-spacing: 0.06em;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
     }
 
 .visually-hidden {
@@ -49,8 +49,6 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-     display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
 }
@@ -74,12 +72,12 @@ body {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-
 }
+
 .logo-accent {
     color: var(--accent-color);
+}
 
-    }
 .link {
 font-weight: 500;
 font-size: 14px;
@@ -90,32 +88,30 @@ text-decoration: none;
 
 .link-header {
 text-decoration: none;
-font-weight: 500;
 font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-}
-
-.link-header {
+line-height: 1.7;
+letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 
 .button {
     color: var(--white-color);
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
+
 .button-filter {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
     background-color: var(--button-background-color);
     cursor: pointer;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
     text-align: center;
     text-decoration: none;
-        }
+    }
 
 .button-filter:hover, 
 .button-filter:focus {
@@ -123,13 +119,11 @@ color: var(--primary-text-color);
     background-color: var(--accent-color);
 }
 
-
 .project-watch{
-        color: var(--primary-text-color);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
 }
 
 ul { 
@@ -143,7 +137,6 @@ ul {
     color: var(--accent-color);
 }
 
-
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-address .link:hover,
@@ -156,17 +149,17 @@ color: var(--accent-color);
 
 /* Section */
 .section-title {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-      }
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.time-composition {
+    background-color: var(--white-color);
+}
 .type-title {
     background-color: var(--white-color);
 }
@@ -178,33 +171,32 @@ color: var(--accent-color);
 .section-box {
     list-style: none;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 18px;
+    line-height: 2;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
 .section-advantege {
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
 .section-subtitle {
-     color: var(--title-text-color);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
+
  .professions {
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
  }
 
 .team {
@@ -237,8 +229,7 @@ color: var(--accent-color);
 }
 
  .address {
-    color: #FFFFFF;
-    font-family: 'Roboto';
+    color: var(--white-color);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -259,15 +250,6 @@ color: var(--accent-color);
     letter-spacing: 0.03em;
 }
 
-.contacts-section {
-    color: var(--background-color);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-}
 .footer-section {
     text-decoration: none;
     color: var(--white-color);
@@ -281,16 +263,9 @@ color: var(--accent-color);
 
 .logo-footer {
     color: var(--accent-color);
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-
 }
 
-.link-footer {
+/* .link-footer {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -301,6 +276,6 @@ color: var(--accent-color);
     
 .link-footer {
     color: var(--primary-text-color);
-    }
+    } */
     
  
